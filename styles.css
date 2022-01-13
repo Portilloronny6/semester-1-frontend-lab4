@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.cube {
+    border: 0px solid;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    padding: 10px 0 0 0;
+    vertical-align: middle;
+    margin: 0;
+}
+
+p {
+    margin: 50px;
+}
+
+div.super {
+    border: 0px solid red;
+    width: 610px;
+    margin: 30px  auto;
+}
+
+body {
+    background-image: url("bg-illu4.jpg");
+    
+}
+
+.violet {
+    background-color: #880088;
+}
+
+.violet:hover {
+    background-color: #884488;
+}
+
+.blue {
+    background-color: #000088;
+}
+
+.blue:hover {
+    background-color: #444488;
+}
+
+.bordo {
+    background-color: #880000;
+}
+
+.bordo:hover {
+    background-color: #884444;
+}
+
+.center {
+    background-image: url("logo-t4d-canvas.png");
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.center p {
+    font-size: 10pt;
+    margin: 160px 0 0 0;
+}
+
+.center p span {
+    font-size: 10pt;
+}
+
+@media (max-width: 1000px)
+{
+    body {
+        background-image: url("bg-illu1.jpg")
+    }
+    div.super {
+        border: 0px solid red;
+        width: 300px;
+        margin: 30px auto;
+    }
+    div.cube {
+        width: 100%;
+        height: 60px;
+        margin: 20px 0 0 0;
+        font-size: 14pt;
+    }
+
+    p {
+        margin: 16px 0 0 0;
+    }
+
+    .center {
+        background-image: url("logo-t4d-canvas.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* margin: 0 0 0 0; */
+    }
+
+    div.cube:nth-child(5) {
+        margin: 10px 0 -8px 0;
+        height: 60px;
+    }
+
+    .center p {
+        display: none;
+    }
+}
